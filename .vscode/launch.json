@@ -9,10 +9,10 @@
       "stopAtEntry": false,
       "cwd": "c:/Users/USER/Documents/Programacion/Sandwich",
       "environment": [],
-      "program": "c:/Users/USER/Documents/Programacion/Sandwich/build/Debug/outDebug",
+      "program": "c:/Users/USER/Documents/Programacion/sandwich/sandwich.exe",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:\\TDM-GCC-64\\bin\\gdb.exe",
       "console": "integratedTerminal",
       "setupCommands": [
         {
