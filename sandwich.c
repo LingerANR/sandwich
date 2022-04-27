@@ -43,10 +43,11 @@ void SelectionMenu(int sel)
 void ArrayAddition()
 {
     int rows, cols;
-    printf("Number of rows: \n");
+    printf("Number of rows: ");
     scanf("%d", &rows);
-    printf("Numero de columns: \n");
+    printf("Numero de columns: ");
     scanf("%d", &cols);
+    printf("\n");
     int array1[rows][cols];
 
     for(int x = 0; x < rows; x++)
@@ -54,11 +55,11 @@ void ArrayAddition()
         for(int y = 0; y < cols; y++)
         {
             printf("Value for [%d][%d]: ", x, y);
-            scanf("%d\n", &array1[x][y]);
+            scanf("%d", &array1[x][y]);
         }
     }
 
-    printf("The stored values in [Array 1] are: \n");
+    printf("\nThe stored values in [Array 1] are: \n\n");
 
     for(int x = 0; x < rows; x++)
     {
@@ -69,9 +70,7 @@ void ArrayAddition()
         printf("\n");
     }
 
-    printf("\n");
-    printf("\n");
-    printf("********  Array 2  ********\n");
+    printf("\n\n********  Array 2  ********\n\n");
 
     int array2[rows][cols];
 
@@ -80,11 +79,11 @@ void ArrayAddition()
         for(int y = 0; y < cols; y++)
         {
             printf("Value for [%d][%d]: ", x, y);
-            scanf("%d\n", &array2[x][y]);
+            scanf("%d", &array2[x][y]);
         }
     }
 
-    printf("The stored values in [Array 2] are: \n");
+    printf("\nThe stored values in [Array 2] are: \n\n");
 
     for(int x = 0; x < rows; x++)
     {
@@ -95,8 +94,6 @@ void ArrayAddition()
         printf("\n");
     }
 
-    printf("\n");
-
     int array3[rows][cols];
     for(int x = 0; x < rows; x++)
     {
@@ -106,7 +103,7 @@ void ArrayAddition()
         }
     }
 
-    printf("The sum of the arrays gives: \n");
+    printf("\n\nThe sum of the arrays gives: \n\n");
     for(int x = 0; x < rows; x++)
     {
         for(int y = 0; y < cols; y++)
